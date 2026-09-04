@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Pitch Checker", page_icon="🎤", layout="centered")
 
-st.title("Pitch Checker")
+st.title("CREO Pitch Checker")
 st.caption("Paste your 6-minute pitch. Get told whether it will actually fit.")
 
 WORDS_PER_MINUTE = 130  # a calm presenting pace
@@ -50,3 +50,4 @@ if st.button("Check it", type="primary"):
                 st.write(f"**“{phrase}”** — {note}")
         else:
             st.write("Nothing flagged. Clean script.")
+
